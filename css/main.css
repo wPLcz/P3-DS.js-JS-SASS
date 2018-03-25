@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Abril Fatface', cursive; }
+
+body {
+  background: #333333; }
+
+.tooltip {
+  font-family: 'Muli', sans-serif;
+  position: absolute;
+  background: #637B66;
+  border-radius: 5px;
+  border: 1px solid #FDFBFE;
+  color: #FDFBFE;
+  opacity: 1;
+  padding: 20px 45px; }
+  .tooltip h2 {
+    font-family: 'Muli', sans-serif; }
+  .tooltip h1 {
+    letter-spacing: 3px; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+.choice {
+  height: 5vh;
+  margin: 2vh 0;
+  display: flex;
+  justify-content: center; }
+  .choice select {
+    height: 5vh;
+    width: 25vw;
+    margin: 0 5vw;
+    color: #D4D0BC;
+    font-size: 1.5rem;
+    font-family: 'Muli', sans-serif;
+    background-color: #333333; }
+    .choice select:focus {
+      outline: none; }
+  .choice .none {
+    display: none; }
+
+.finalChart {
+  width: 100vw;
+  margin: 0 auto;
+  cursor: pointer; }
+  @media (min-width: 860px) {
+    .finalChart {
+      width: 60vw; } }
+
+.frontDollar {
+  width: 100vw;
+  height: 40vh;
+  background-image: url("../images/USbill.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  @media (min-width: 860px) {
+    .frontDollar {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: 0 auto;
+      width: 60vw;
+      height: 50vh; } }
+
+.backDollar {
+  width: 100vw;
+  height: 40vh;
+  background-image: url("../images/US_one_dollar_bill,_reverse,_series_2009.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  @media (min-width: 860px) {
+    .backDollar {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: 0 auto;
+      width: 60vw;
+      height: 50vh; } }

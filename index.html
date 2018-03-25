@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>D3js</title>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <script src="https://d3js.org/d3.v5.js"></script>
+</head>
+<body>
+
+<section class="finalChart"></section>
+
+<section class="choice">
+    <select name="SelectYear" id="year">
+        <option value="2018">2018</option>
+        <option value="2017">2017</option>
+        <option value="2016">2016</option>
+        <option value="2015">2015</option>
+        <option value="2014">2014</option>
+        <option value="2013">2013</option>
+        <option value='default' selected="selected">SELECT YEAR</option>
+    </select>
+
+    <select name="SelectMonth" class='none' id="month">
+        <option class='currentMonths' value="January">January</option>
+        <option class='currentMonths' value="February">February</option>
+        <option class='currentMonths' value="March">March</option>
+        <option class='currentMonths' value="April">April</option>
+        <option class='currentMonths' value="May">May</option>
+        <option class='currentMonths' value="June">June</option>
+        <option class='currentMonths' value="July">July</option>
+        <option class='currentMonths' value="August">August</option>
+        <option class='currentMonths' value="September">September</option>
+        <option class='currentMonths' value="October">October</option>
+        <option class='currentMonths' value="November">November</option>
+        <option class='currentMonths' value="December">December</option>
+        <option selected="selected">SELECT MONTH</option>
+    </select>
+
+</section>
+
+<div class="frontDollar"></div>
+<div class="backDollar"></div>
+
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+<script src="js/out.js"></script>
+</body>
+</html>

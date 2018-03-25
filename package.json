@@ -1,0 +1,29 @@
+{
+  "name": "D3.js",
+  "version": "1.0.0",
+  "description": "D3js live chart project USD/PLN NBP data",
+  "main": "in.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "d3": "^4.13.0",
+    "moment": "^2.20.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "css-loader": "^0.28.8",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0"
+  }
+}
